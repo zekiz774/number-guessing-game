@@ -18,7 +18,6 @@ def ifst(rdn_nbr, inp):
 
 while True:
   inp=input('>')
-
   try:
     inp=int(inp)
     if ifst(rdn_nbr,inp) == 'correct':
@@ -29,5 +28,3 @@ while True:
 
 
 print(f'You needed {i} tries')
-
-
